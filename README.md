@@ -1,135 +1,34 @@
-SCORA – Quiz & Survey Management System
-Overview
+# **🎯 Scora - Interactive Quiz Platform**
 
-SCORA is a web-based system for managing quizzes, surveys, and educational documents. It allows users to:
+## **🚀 Overview**
 
-Sign up and log in
+Scora is an innovative and engaging quiz platform that allows users to both **create** and **participate** in interactive quizzes through unique generated codes. Experience seamless quiz creation and real-time scoring in a beautifully designed interface.
 
-Access quizzes, surveys, or documents using a unique code
+## **📹 Live Demo**
 
-Complete quizzes and view results instantly
-
-The system is built with HTML, CSS, and JavaScript, and uses the browser's localStorage to store data.
-
-Features
-User Features
-
-Sign Up / Sign In
-
-Users can create accounts with email and password.
-
-Login credentials are validated and stored in localStorage.
-
-Access Content by Code
-
-Enter a unique code to access any content: quiz, survey, or document.
-
-Opens the selected content in a new page (quiz.html#<code>).
-
-Take Quiz / Survey
-
-Multiple-choice questions for quizzes.
-
-Surveys can collect responses without scoring.
-
-Results displayed after submission (percentage for quizzes, confirmation for surveys).
-
-Admin Features
-
-Create Quiz / Survey
-
-Add quizzes or surveys with a unique serial code.
-
-Set number of questions, timeout, and correct options.
-
-Generate Random Code
-
-Each quiz or survey can generate a unique code for easy sharing.
-
-Project Structure
-SCORA/
-│
-├─ index.html          # Main page / Home page with quiz list
-├─signup.html          # User sign-up page
-├─signin.html          # User sign-in page
-├─join.html            # Join page by code (Quiz / Survey / Document)
-├─quiz.html            # Take quiz or survey page
-├─style.css            # Styles for all pages
-├─project.js           # Main JavaScript handling authentication, quiz creation, and quiz/survey access
-├─images/              # Icons and images
-└─README.md            # Project documentation
-
-How to Use
-1. Running the Project
-
-Clone the repository:
-
-git clone https://github.com/Khlood-Rajaa/SCORA.git
+        
 
 
-Open index.html or signin.html in your browser.
-
-2. User Flow
-
-Sign Up → Sign In → Main page (quiz list)
-
-Or enter a code on the join page → access quiz, survey, or document
-
-Take quiz → view score
-
-Take survey → submit answers and see confirmation
-
-3. Admin Flow
-
-Create quiz or survey → add questions → generate random code
-
-Users can access the content using the code
-
-Data Storage
-
-Users (formData):
-
-[
-  { "fname": "John", "lname": "Doe", "email": "john@example.com", "pwd": "1234" }
-]
+https://github.com/user-attachments/assets/0a8a6c30-454d-439f-ac2f-cfb27f5937d8
 
 
-Quizzes / Surveys (quizes):
+## **✨ Quick Features**
 
-[
-  {
-    "id": 1,
-    "title": "CSS Quiz",
-    "serial": "abc1",
-    "count": 5,
-    "timeout": "8",
-    "questions": [
-      { 
-        "id": 1, 
-        "title": "What does CSS stand for?", 
-        "options": ["Creative Style Sheets","Colorful Style Sheet","Computer Style Sheet","Cascading Style Sheet"], 
-        "correct": "4" 
-      }
-    ]
-  }
-]
+- **📝 Create Quizzes** - Easy quiz builder with unique codes
+- **🎮 Take Quizzes** - Enter code to participate instantly
+- **📊 Get Scores** - Immediate results with performance metrics
+- **👤 User Accounts** - Sign up to save and track quizzes
 
-Technologies Used
+## **🚀 How It Works**
 
-HTML5
+### **For Participants:**
 
-CSS3
+1. Enter quiz code
+2. Answer questions
+3. View score instantly
 
-JavaScript (ES6+)
+### **For Creators:**
 
-Browser localStorage for data persistence
-
-Future Improvements
-
-Support non-scored surveys and document access fully.
-
-Save user results to an external database.
-
-Admin dashboard for content management.
-
-More interactive and responsive UI design.
+1. Sign up & create quiz
+2. Get unique code
+3. Share code with participants
